@@ -70,7 +70,7 @@ A custom `DataGenerator` was implemented for:
 ---
 
 ##  Next Steps
-1. **Resume full training** (with GPU/TPU or local HPC cluster)  
+1. **Resume full training** 
 2. **Experiment with 4-channel input** (FLAIR, T1, T1ce, T2)  
 3. **Add data augmentation** (rotation, flipping, elastic deformation)  
 4. **Evaluate performance** on validation & test sets (Dice, IoU)  
