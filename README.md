@@ -1,8 +1,8 @@
-# Brain-Tumors-MRI-Segmentation | U-Net Architecture
 
-# 🧠 Brain Tumor Segmentation (BraTS20, U-Net with Keras/TensorFlow)
 
-## 📌 Project Overview
+#  Brain Tumor Segmentation (BraTS20, U-Net with Keras/TensorFlow)
+
+##  Project Overview
 This repository contains my work on **brain tumor segmentation** using the [BraTS2020 dataset](https://www.med.upenn.edu/cbica/brats2020/).  
 The model is based on a **U-Net architecture** implemented in TensorFlow/Keras, trained on multimodal MRI scans (FLAIR, T1ce, etc.).  
 
@@ -10,7 +10,7 @@ The model is based on a **U-Net architecture** implemented in TensorFlow/Keras, 
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 - Dataset: **BraTS20 Training + Validation set** (via KaggleHub/Colab integration)  
 - Modalities used (per subject):
   - **FLAIR** (fluid attenuated inversion recovery)  
@@ -20,7 +20,7 @@ The model is based on a **U-Net architecture** implemented in TensorFlow/Keras, 
 
 ---
 
-## ⚙️ Preprocessing
+##  Preprocessing
 - **Normalization:** Percentile-based robust normalization (1st–99th percentile).  
 - **Resizing:** 2D slices resized to `(128 × 128)`.  
 - **Label adjustment:** Label `4` (non-enhancing tumor) mapped to `3` for consistency.  
